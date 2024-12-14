@@ -31,10 +31,10 @@ while True:
     
     print("________________________________\n")
     pre_max = int(input("Valor máximo: "))
-    pre_min = int(input("Valor mínimo:"))
+    pre_min = int(input("Valor mínimo: "))
     print("________________________________\n")
     result = filtrar(list_prod, pre_max, pre_min)
     for product in result:
         print(product)
 
-    continuar = input("Desea fazer outra busca? sim [S] não [N]: ")
+    continuar = input("Deseja fazer outra busca? sim [S] não [N]: ")
